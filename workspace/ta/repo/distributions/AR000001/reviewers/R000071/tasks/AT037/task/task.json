@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM04_FILTER_SORT",
+  "task_statement": "data.csv 包含 name、score 两个字段。\n请统计 score >= 80 的记录数。\n输出一个整数。",
+  "anonymous_task_id": "AT037"
+}

@@ -1,0 +1,7 @@
+{
+    "task_id": "T_02",
+    "description": "找出2023年有效在线订单净营收最高的用户（Schema理解错误）",
+    "task_statement": "data.csv 含 user_id, order_id, order_date, is_valid, channel, gross_revenue, discount_amount, refund_amount, net_revenue 九列。net_revenue 为该订单净营收（=gross_revenue - discount_amount - refund_amount，已算好）。要求：统计 order_date 在 2023 年、is_valid='true'、channel='online' 的订单，按 user_id 分组对 net_revenue 求和，找出总净营收最高的 user_id，输出 JSON：{\"answer\":\"user_id\"}",
+    "student_id": "20250002",
+    "hypothesized_failure_mode": "FM02_SCHEMA"
+}

@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM04_FILTER_SORT",
+  "task_statement": "data.csv 是订单记录，包含 order_id、region、status、amount、returned。\n请统计同时满足以下全部条件的订单数量：\n1. region 属于 East 或 North；\n2. status == \"completed\"；\n3. amount >= 200；\n4. returned == \"No\"。\n输出一个整数。",
+  "anonymous_task_id": "AT038"
+}

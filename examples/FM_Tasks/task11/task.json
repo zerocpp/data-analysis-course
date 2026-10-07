@@ -1,0 +1,9 @@
+{
+    "task_id": "T_11",
+    "description": "计算各用户最大订单金额的平均值（规划与分解错误）",
+    "task_statement": "data.csv含user_id,order_id,order_date,amount,status五列。要求：对order_date在2023年、status='completed'的订单，**先按user_id分组取出每个用户金额最大的那一单**，再对这些"
+    "用户最大单\"的金额求平均值，输出JSON：{\\\"answer\\\":数值}\"",
+    ,
+    "student_id": "20250011",
+    "hypothesized_failure_mode": "FM11_PLANNING_DECOMPOSITION"
+}

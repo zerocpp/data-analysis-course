@@ -1,0 +1,7 @@
+{
+    "task_id": "T_09",
+    "description": "剔除异常金额后统计2023年completed订单金额总和（异常/边界处理错误）",
+    "task_statement": "data.csv含order_id,order_date,amount,status四列。amount为订单金额，其中>5000视为录入异常值、<=0视为无效边界值，均应从统计中剔除。要求：只统计order_date在2023年、status='completed'的订单，剔除异常与边界值后对 amount 求和，输出JSON：{\"answer\":数值}",
+    "student_id": "20250009",
+    "hypothesized_failure_mode": "FM09_OUTLIER_BOUNDARY"
+}

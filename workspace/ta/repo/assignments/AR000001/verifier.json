@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "matrix_shape": [
+    201,
+    201
+  ],
+  "total_assignments": 2010,
+  "min_reviewer_load": 10,
+  "max_reviewer_load": 10,
+  "min_task_coverage": 10,
+  "max_task_coverage": 10,
+  "self_review_count": 0,
+  "duplicate_pair_count": 0,
+  "errors": []
+}

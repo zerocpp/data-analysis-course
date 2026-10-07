@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000064",
+  "source_task_id": "T_00000000000000000000000000000040",
+  "submission_phase": "phase1",
+  "failure_mode": "FM10_DUPLICATE_RECORD_HANDLING",
+  "ingested_at": "2026-10-07T06:54:28+00:00",
+  "files": {
+    "task/data/data.csv": "678ce273417b7b196daac56ea4a0682541c01fbe45ba7e0202dc783a75b08065",
+    "task/task.json": "6af639b43092e862ddf3a8c117c62627151af5b4fa10672907221e5dded6d3a5"
+  }
+}

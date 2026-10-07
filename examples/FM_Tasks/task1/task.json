@@ -1,0 +1,7 @@
+{
+    "task_id": "T_01",
+    "description": "统计2023年东北区线上订单总金额（需求理解偏差）",
+    "task_statement": "data.csv 含 order_id, order_date, region, channel, amount, status 六列。要求：只统计 2023 年度、region='NE'、channel='online'、status='completed' 的订单，计算 amount 总和，输出 JSON：{\"answer\": 数值}",
+    "student_id": "20250001",
+    "hypothesized_failure_mode": "FM01_REQUIREMENT"
+}

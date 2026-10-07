@@ -1,0 +1,16 @@
+order_id,order_date,region,channel,amount,status
+1001,2023-01-15,NE,online,120.50,completed
+1002,2023-02-20,NE,offline,350.00,completed
+1003,2023-03-05,NE,online,80.00,refunded
+1004,2023-04-11,NW,online,200.00,completed
+1005,2023-05-30,NE,online,450.25,completed
+1006,2022-12-31,NE,online,999.99,completed
+1007,2023-06-01,NE,online,60.00,completed
+1008,2023-07-19,NE,offline,720.00,cancelled
+1009,2023-08-08,SE,online,150.00,completed
+1010,2023-09-17,NE,online,88.88,completed
+1011,2024-01-02,NE,online,500.00,completed
+1012,2023-10-25,NE,online,310.10,completed
+1013,2023-11-11,NE,online,0.00,completed
+1014,2023-12-24,NE,offline,430.00,completed
+1015,2023-05-30,NE,online,450.25,completed

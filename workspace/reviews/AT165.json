@@ -1,0 +1,12 @@
+{
+  "reviewer_id": "R000001",
+  "task_id": "AT165",
+  "verdict": "",
+  "observed_behavior": "",
+  "runtime_evidence": "exposure/runs/AT165/result.json",
+  "failure_category": "",
+  "root_cause": "",
+  "what_i_learned": "",
+  "agent_v2_action": "",
+  "task_v2_action": ""
+}

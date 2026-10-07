@@ -1,0 +1,56 @@
+# CodeSetArena Student Runtime — offline Docker distribution.
+#
+# Students run this file. It NEVER builds: the image is loaded from
+# `bigdata-student-10.1.13.image.tar` via `docker load`, so a machine
+# with no Internet can start the container with zero downloads.
+#
+#   docker load -i bigdata-student-10.1.13.image.tar
+#   docker compose up -d
+#   docker compose ps
+#
+# The exact image reference is injected by scripts/build_student_docker_release.sh
+# (it rewrites the __IMAGE__ placeholder), so the version lives in exactly one
+# place: the repository VERSION file.
+
+name: bigdata-student
+
+services:
+  codesetarena:
+    image: ${CSA_IMAGE:-bigdata-student:10.1.13}
+    container_name: bigdata-student
+
+    # `docker compose up -d` must leave the container Up: the interface is the
+    # CLI, reached with `docker compose exec`. Without this it would exit (0)
+    # the moment the default command returned.
+    init: true
+    restart: unless-stopped
+
+    # Keep the workspace (task / agent / submission / .env) on the host so it
+    # survives `docker compose stop`, `docker compose down`, WSL restarts and
+    # Docker daemon restarts.
+    working_dir: /workspace
+    volumes:
+      - ./workspace:/workspace
+
+    # Connection Configuration only. The file is created by the student from
+    # the shipped .env.example; it holds LLM_BASE_URL / LLM_API_KEY and is
+    # never baked into the image. `required: false` keeps `docker compose
+    # config`/`up` working before the student creates it.
+    env_file:
+      - path: .env
+        required: false
+
+    # Outbound network is needed to reach the course LLM gateway. No inbound
+    # ports are published: this distribution exposes no HTTP service.
+    #
+    # NEVER mount /var/run/docker.sock here. The runtime is a plain CLI and
+    # needs no Docker-in-Docker.
+
+    # Offline health probe: checks the installed CLI and the baked runtime
+    # policy. No network, no credentials, no LLM call.
+    healthcheck:
+      test: ["CMD", "/usr/local/bin/csa-healthcheck"]
+      interval: 30s
+      timeout: 10s
+      start_period: 10s
+      retries: 3

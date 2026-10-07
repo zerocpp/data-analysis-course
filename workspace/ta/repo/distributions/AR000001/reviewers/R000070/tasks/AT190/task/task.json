@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM05_JOIN",
+  "task_statement": "data.csv 中通过 record_type 存放两类记录：customer 和 order。\ncustomer 行中 entity_id 表示 customer_id；order 行中 customer_id 表示订单所属客户。\n请按 customer_id 将订单与客户关联，并计算所有成功匹配订单的 amount 总和。\n输出数值。",
+  "anonymous_task_id": "AT190"
+}

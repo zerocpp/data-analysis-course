@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000201",
+  "source_task_id": "T_SMOKE_DETERMINISTIC_0201",
+  "submission_phase": "phase1",
+  "failure_mode": "FM06_AGGREGATION",
+  "ingested_at": "2026-10-07T06:56:13+00:00",
+  "files": {
+    "task/data/data.csv": "2e429153e74b6596e4165c6b6a8b1f723ff0da6bb94d82a57d9f41fb6eab1568",
+    "task/task.json": "aaddf8a205e343b7def7c54e3d2d9d6f306aa956c8a7790417ed893f19ce60eb"
+  }
+}

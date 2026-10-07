@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000092",
+  "source_task_id": "T_0000000000000000000000000000005c",
+  "submission_phase": "phase1",
+  "failure_mode": "FM08_MISSING_VALUE",
+  "ingested_at": "2026-10-07T06:54:46+00:00",
+  "files": {
+    "task/data/data.csv": "da82ca22d108383a42975c88014d86b88a5ef45240689f5b10b240011fea39a6",
+    "task/task.json": "3716c00ecbff9beda2b38ff649f9bce2de2ebcd17d58df94428afff9bf5937f0"
+  }
+}

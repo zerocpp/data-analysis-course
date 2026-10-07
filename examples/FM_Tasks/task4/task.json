@@ -1,0 +1,7 @@
+{
+    "task_id": "T_04",
+    "description": "筛选金额>=250的finished订单，按金额升序取最小（筛选/排序错误）",
+    "task_statement": "data.csv含order_id,order_date,product,amount,status五列。要求：筛选 amount>=250 且 status='finished' 的订单，按 amount 升序、amount 相同则按 order_date 升序排列，返回第一个订单的 product，输出JSON：{\"answer\":\"product\"}",
+    "student_id": "20250004",
+    "hypothesized_failure_mode": "FM04_FILTER_SORT"
+}

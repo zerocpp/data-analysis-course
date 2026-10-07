@@ -1,0 +1,1852 @@
+{
+  "phase": "phase1",
+  "reviewer_order": [
+    "20260001",
+    "20260002",
+    "20260003",
+    "20260004",
+    "20260005",
+    "20260006",
+    "20260007",
+    "20260008",
+    "20260009",
+    "20260010",
+    "20260011",
+    "20260012",
+    "20260013",
+    "20260014",
+    "20260015",
+    "20260016",
+    "20260017",
+    "20260018",
+    "20260019",
+    "20260020",
+    "20260021",
+    "20260022",
+    "20260023",
+    "20260024",
+    "20260025",
+    "20260026",
+    "20260027",
+    "20260028",
+    "20260029",
+    "20260030",
+    "20260031",
+    "20260032",
+    "20260033",
+    "20260034",
+    "20260035",
+    "20260036",
+    "20260037",
+    "20260038",
+    "20260039",
+    "20260040",
+    "20260041",
+    "20260042",
+    "20260043",
+    "20260044",
+    "20260045",
+    "20260046",
+    "20260047",
+    "20260048",
+    "20260049",
+    "20260050",
+    "20260051",
+    "20260052",
+    "20260053",
+    "20260054",
+    "20260055",
+    "20260056",
+    "20260057",
+    "20260058",
+    "20260059",
+    "20260060",
+    "20260061",
+    "20260062",
+    "20260063",
+    "20260064",
+    "20260065",
+    "20260066",
+    "20260067",
+    "20260068",
+    "20260069",
+    "20260070",
+    "20260071",
+    "20260072",
+    "20260073",
+    "20260074",
+    "20260075",
+    "20260076",
+    "20260077",
+    "20260078",
+    "20260079",
+    "20260080",
+    "20260081",
+    "20260082",
+    "20260083",
+    "20260084",
+    "20260085",
+    "20260086",
+    "20260087",
+    "20260088",
+    "20260089",
+    "20260090",
+    "20260091",
+    "20260092",
+    "20260093",
+    "20260094",
+    "20260095",
+    "20260096",
+    "20260097",
+    "20260098",
+    "20260099",
+    "20260100",
+    "20260101",
+    "20260102",
+    "20260103",
+    "20260104",
+    "20260105",
+    "20260106",
+    "20260107",
+    "20260108",
+    "20260109",
+    "20260110",
+    "20260111",
+    "20260112",
+    "20260113",
+    "20260114",
+    "20260115",
+    "20260116",
+    "20260117",
+    "20260118",
+    "20260119",
+    "20260120",
+    "20260121",
+    "20260122",
+    "20260123",
+    "20260124",
+    "20260125",
+    "20260126",
+    "20260127",
+    "20260128",
+    "20260129",
+    "20260130",
+    "20260131",
+    "20260132",
+    "20260133",
+    "20260134",
+    "20260135",
+    "20260136",
+    "20260137",
+    "20260138",
+    "20260139",
+    "20260140",
+    "20260141",
+    "20260142",
+    "20260143",
+    "20260144",
+    "20260145",
+    "20260146",
+    "20260147",
+    "20260148",
+    "20260149",
+    "20260150",
+    "20260151",
+    "20260152",
+    "20260153",
+    "20260154",
+    "20260155",
+    "20260156",
+    "20260157",
+    "20260158",
+    "20260159",
+    "20260160",
+    "20260161",
+    "20260162",
+    "20260163",
+    "20260164",
+    "20260165",
+    "20260166",
+    "20260167",
+    "20260168",
+    "20260169",
+    "20260170",
+    "20260171",
+    "20260172",
+    "20260173",
+    "20260174",
+    "20260175",
+    "20260176",
+    "20260177",
+    "20260178",
+    "20260179",
+    "20260180",
+    "20260181",
+    "20260182",
+    "20260183",
+    "20260184",
+    "20260185",
+    "20260186",
+    "20260187",
+    "20260188",
+    "20260189",
+    "20260190",
+    "20260191",
+    "20260192",
+    "20260193",
+    "20260194",
+    "20260195",
+    "20260196",
+    "20260197",
+    "20260198",
+    "20260199",
+    "20260200",
+    "20260201"
+  ],
+  "task_order": [
+    "T000001",
+    "T000002",
+    "T000003",
+    "T000004",
+    "T000005",
+    "T000006",
+    "T000007",
+    "T000008",
+    "T000009",
+    "T000010",
+    "T000011",
+    "T000012",
+    "T000013",
+    "T000014",
+    "T000015",
+    "T000016",
+    "T000017",
+    "T000018",
+    "T000019",
+    "T000020",
+    "T000021",
+    "T000022",
+    "T000023",
+    "T000024",
+    "T000025",
+    "T000026",
+    "T000027",
+    "T000028",
+    "T000029",
+    "T000030",
+    "T000031",
+    "T000032",
+    "T000033",
+    "T000034",
+    "T000035",
+    "T000036",
+    "T000037",
+    "T000038",
+    "T000039",
+    "T000040",
+    "T000041",
+    "T000042",
+    "T000043",
+    "T000044",
+    "T000045",
+    "T000046",
+    "T000047",
+    "T000048",
+    "T000049",
+    "T000050",
+    "T000051",
+    "T000052",
+    "T000053",
+    "T000054",
+    "T000055",
+    "T000056",
+    "T000057",
+    "T000058",
+    "T000059",
+    "T000060",
+    "T000061",
+    "T000062",
+    "T000063",
+    "T000064",
+    "T000065",
+    "T000066",
+    "T000067",
+    "T000068",
+    "T000069",
+    "T000070",
+    "T000071",
+    "T000072",
+    "T000073",
+    "T000074",
+    "T000075",
+    "T000076",
+    "T000077",
+    "T000078",
+    "T000079",
+    "T000080",
+    "T000081",
+    "T000082",
+    "T000083",
+    "T000084",
+    "T000085",
+    "T000086",
+    "T000087",
+    "T000088",
+    "T000089",
+    "T000090",
+    "T000091",
+    "T000092",
+    "T000093",
+    "T000094",
+    "T000095",
+    "T000096",
+    "T000097",
+    "T000098",
+    "T000099",
+    "T000100",
+    "T000101",
+    "T000102",
+    "T000103",
+    "T000104",
+    "T000105",
+    "T000106",
+    "T000107",
+    "T000108",
+    "T000109",
+    "T000110",
+    "T000111",
+    "T000112",
+    "T000113",
+    "T000114",
+    "T000115",
+    "T000116",
+    "T000117",
+    "T000118",
+    "T000119",
+    "T000120",
+    "T000121",
+    "T000122",
+    "T000123",
+    "T000124",
+    "T000125",
+    "T000126",
+    "T000127",
+    "T000128",
+    "T000129",
+    "T000130",
+    "T000131",
+    "T000132",
+    "T000133",
+    "T000134",
+    "T000135",
+    "T000136",
+    "T000137",
+    "T000138",
+    "T000139",
+    "T000140",
+    "T000141",
+    "T000142",
+    "T000143",
+    "T000144",
+    "T000145",
+    "T000146",
+    "T000147",
+    "T000148",
+    "T000149",
+    "T000150",
+    "T000151",
+    "T000152",
+    "T000153",
+    "T000154",
+    "T000155",
+    "T000156",
+    "T000157",
+    "T000158",
+    "T000159",
+    "T000160",
+    "T000161",
+    "T000162",
+    "T000163",
+    "T000164",
+    "T000165",
+    "T000166",
+    "T000167",
+    "T000168",
+    "T000169",
+    "T000170",
+    "T000171",
+    "T000172",
+    "T000173",
+    "T000174",
+    "T000175",
+    "T000176",
+    "T000177",
+    "T000178",
+    "T000179",
+    "T000180",
+    "T000181",
+    "T000182",
+    "T000183",
+    "T000184",
+    "T000185",
+    "T000186",
+    "T000187",
+    "T000188",
+    "T000189",
+    "T000190",
+    "T000191",
+    "T000192",
+    "T000193",
+    "T000194",
+    "T000195",
+    "T000196",
+    "T000197",
+    "T000198",
+    "T000199",
+    "T000200",
+    "T000201"
+  ],
+  "tasks": [
+    {
+      "task_id": "T000001",
+      "owner_student_id": "20260001",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000002",
+      "owner_student_id": "20260002",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000003",
+      "owner_student_id": "20260003",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000004",
+      "owner_student_id": "20260004",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000005",
+      "owner_student_id": "20260005",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000006",
+      "owner_student_id": "20260006",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000007",
+      "owner_student_id": "20260007",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000008",
+      "owner_student_id": "20260008",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000009",
+      "owner_student_id": "20260009",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000010",
+      "owner_student_id": "20260010",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000011",
+      "owner_student_id": "20260011",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000012",
+      "owner_student_id": "20260012",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000013",
+      "owner_student_id": "20260013",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000014",
+      "owner_student_id": "20260014",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000015",
+      "owner_student_id": "20260015",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    },
+    {
+      "task_id": "T000016",
+      "owner_student_id": "20260016",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000017",
+      "owner_student_id": "20260017",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000018",
+      "owner_student_id": "20260018",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000019",
+      "owner_student_id": "20260019",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000020",
+      "owner_student_id": "20260020",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000021",
+      "owner_student_id": "20260021",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000022",
+      "owner_student_id": "20260022",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000023",
+      "owner_student_id": "20260023",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000024",
+      "owner_student_id": "20260024",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000025",
+      "owner_student_id": "20260025",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000026",
+      "owner_student_id": "20260026",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000027",
+      "owner_student_id": "20260027",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000028",
+      "owner_student_id": "20260028",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000029",
+      "owner_student_id": "20260029",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000030",
+      "owner_student_id": "20260030",
+      "category_index": 13,
+      "category_code": "FM13_NUMERICAL_PRECISION_ROUNDING"
+    },
+    {
+      "task_id": "T000031",
+      "owner_student_id": "20260031",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000032",
+      "owner_student_id": "20260032",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000033",
+      "owner_student_id": "20260033",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000034",
+      "owner_student_id": "20260034",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000035",
+      "owner_student_id": "20260035",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000036",
+      "owner_student_id": "20260036",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000037",
+      "owner_student_id": "20260037",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000038",
+      "owner_student_id": "20260038",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000039",
+      "owner_student_id": "20260039",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000040",
+      "owner_student_id": "20260040",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000041",
+      "owner_student_id": "20260041",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000042",
+      "owner_student_id": "20260042",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000043",
+      "owner_student_id": "20260043",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000044",
+      "owner_student_id": "20260044",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000045",
+      "owner_student_id": "20260045",
+      "category_index": 4,
+      "category_code": "FM04_FILTER_SORT"
+    },
+    {
+      "task_id": "T000046",
+      "owner_student_id": "20260046",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000047",
+      "owner_student_id": "20260047",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000048",
+      "owner_student_id": "20260048",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000049",
+      "owner_student_id": "20260049",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000050",
+      "owner_student_id": "20260050",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000051",
+      "owner_student_id": "20260051",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000052",
+      "owner_student_id": "20260052",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000053",
+      "owner_student_id": "20260053",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000054",
+      "owner_student_id": "20260054",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000055",
+      "owner_student_id": "20260055",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000056",
+      "owner_student_id": "20260056",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000057",
+      "owner_student_id": "20260057",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000058",
+      "owner_student_id": "20260058",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000059",
+      "owner_student_id": "20260059",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000060",
+      "owner_student_id": "20260060",
+      "category_index": 12,
+      "category_code": "FM12_VERIFICATION"
+    },
+    {
+      "task_id": "T000061",
+      "owner_student_id": "20260061",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000062",
+      "owner_student_id": "20260062",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000063",
+      "owner_student_id": "20260063",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000064",
+      "owner_student_id": "20260064",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000065",
+      "owner_student_id": "20260065",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000066",
+      "owner_student_id": "20260066",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000067",
+      "owner_student_id": "20260067",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000068",
+      "owner_student_id": "20260068",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000069",
+      "owner_student_id": "20260069",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000070",
+      "owner_student_id": "20260070",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000071",
+      "owner_student_id": "20260071",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000072",
+      "owner_student_id": "20260072",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000073",
+      "owner_student_id": "20260073",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000074",
+      "owner_student_id": "20260074",
+      "category_index": 10,
+      "category_code": "FM10_DUPLICATE_RECORD_HANDLING"
+    },
+    {
+      "task_id": "T000075",
+      "owner_student_id": "20260075",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000076",
+      "owner_student_id": "20260076",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000077",
+      "owner_student_id": "20260077",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000078",
+      "owner_student_id": "20260078",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000079",
+      "owner_student_id": "20260079",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000080",
+      "owner_student_id": "20260080",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000081",
+      "owner_student_id": "20260081",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000082",
+      "owner_student_id": "20260082",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000083",
+      "owner_student_id": "20260083",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000084",
+      "owner_student_id": "20260084",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000085",
+      "owner_student_id": "20260085",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000086",
+      "owner_student_id": "20260086",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000087",
+      "owner_student_id": "20260087",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000088",
+      "owner_student_id": "20260088",
+      "category_index": 11,
+      "category_code": "FM11_PLANNING_DECOMPOSITION"
+    },
+    {
+      "task_id": "T000089",
+      "owner_student_id": "20260089",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000090",
+      "owner_student_id": "20260090",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000091",
+      "owner_student_id": "20260091",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000092",
+      "owner_student_id": "20260092",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000093",
+      "owner_student_id": "20260093",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000094",
+      "owner_student_id": "20260094",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000095",
+      "owner_student_id": "20260095",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000096",
+      "owner_student_id": "20260096",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000097",
+      "owner_student_id": "20260097",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000098",
+      "owner_student_id": "20260098",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000099",
+      "owner_student_id": "20260099",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000100",
+      "owner_student_id": "20260100",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000101",
+      "owner_student_id": "20260101",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000102",
+      "owner_student_id": "20260102",
+      "category_index": 8,
+      "category_code": "FM08_MISSING_VALUE"
+    },
+    {
+      "task_id": "T000103",
+      "owner_student_id": "20260103",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000104",
+      "owner_student_id": "20260104",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000105",
+      "owner_student_id": "20260105",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000106",
+      "owner_student_id": "20260106",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000107",
+      "owner_student_id": "20260107",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000108",
+      "owner_student_id": "20260108",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000109",
+      "owner_student_id": "20260109",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000110",
+      "owner_student_id": "20260110",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000111",
+      "owner_student_id": "20260111",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000112",
+      "owner_student_id": "20260112",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000113",
+      "owner_student_id": "20260113",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000114",
+      "owner_student_id": "20260114",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000115",
+      "owner_student_id": "20260115",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000116",
+      "owner_student_id": "20260116",
+      "category_index": 1,
+      "category_code": "FM01_REQUIREMENT"
+    },
+    {
+      "task_id": "T000117",
+      "owner_student_id": "20260117",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000118",
+      "owner_student_id": "20260118",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000119",
+      "owner_student_id": "20260119",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000120",
+      "owner_student_id": "20260120",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000121",
+      "owner_student_id": "20260121",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000122",
+      "owner_student_id": "20260122",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000123",
+      "owner_student_id": "20260123",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000124",
+      "owner_student_id": "20260124",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000125",
+      "owner_student_id": "20260125",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000126",
+      "owner_student_id": "20260126",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000127",
+      "owner_student_id": "20260127",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000128",
+      "owner_student_id": "20260128",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000129",
+      "owner_student_id": "20260129",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000130",
+      "owner_student_id": "20260130",
+      "category_index": 2,
+      "category_code": "FM02_SCHEMA"
+    },
+    {
+      "task_id": "T000131",
+      "owner_student_id": "20260131",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000132",
+      "owner_student_id": "20260132",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000133",
+      "owner_student_id": "20260133",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000134",
+      "owner_student_id": "20260134",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000135",
+      "owner_student_id": "20260135",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000136",
+      "owner_student_id": "20260136",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000137",
+      "owner_student_id": "20260137",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000138",
+      "owner_student_id": "20260138",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000139",
+      "owner_student_id": "20260139",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000140",
+      "owner_student_id": "20260140",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000141",
+      "owner_student_id": "20260141",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000142",
+      "owner_student_id": "20260142",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000143",
+      "owner_student_id": "20260143",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000144",
+      "owner_student_id": "20260144",
+      "category_index": 3,
+      "category_code": "FM03_DATA_TYPE"
+    },
+    {
+      "task_id": "T000145",
+      "owner_student_id": "20260145",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000146",
+      "owner_student_id": "20260146",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000147",
+      "owner_student_id": "20260147",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000148",
+      "owner_student_id": "20260148",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000149",
+      "owner_student_id": "20260149",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000150",
+      "owner_student_id": "20260150",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000151",
+      "owner_student_id": "20260151",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000152",
+      "owner_student_id": "20260152",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000153",
+      "owner_student_id": "20260153",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000154",
+      "owner_student_id": "20260154",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000155",
+      "owner_student_id": "20260155",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000156",
+      "owner_student_id": "20260156",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000157",
+      "owner_student_id": "20260157",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000158",
+      "owner_student_id": "20260158",
+      "category_index": 7,
+      "category_code": "FM07_TIME_TIMEZONE"
+    },
+    {
+      "task_id": "T000159",
+      "owner_student_id": "20260159",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000160",
+      "owner_student_id": "20260160",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000161",
+      "owner_student_id": "20260161",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000162",
+      "owner_student_id": "20260162",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000163",
+      "owner_student_id": "20260163",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000164",
+      "owner_student_id": "20260164",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000165",
+      "owner_student_id": "20260165",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000166",
+      "owner_student_id": "20260166",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000167",
+      "owner_student_id": "20260167",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000168",
+      "owner_student_id": "20260168",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000169",
+      "owner_student_id": "20260169",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000170",
+      "owner_student_id": "20260170",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000171",
+      "owner_student_id": "20260171",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000172",
+      "owner_student_id": "20260172",
+      "category_index": 14,
+      "category_code": "FM14_PROMPT_INJECTION"
+    },
+    {
+      "task_id": "T000173",
+      "owner_student_id": "20260173",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000174",
+      "owner_student_id": "20260174",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000175",
+      "owner_student_id": "20260175",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000176",
+      "owner_student_id": "20260176",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000177",
+      "owner_student_id": "20260177",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000178",
+      "owner_student_id": "20260178",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000179",
+      "owner_student_id": "20260179",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000180",
+      "owner_student_id": "20260180",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000181",
+      "owner_student_id": "20260181",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000182",
+      "owner_student_id": "20260182",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000183",
+      "owner_student_id": "20260183",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000184",
+      "owner_student_id": "20260184",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000185",
+      "owner_student_id": "20260185",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000186",
+      "owner_student_id": "20260186",
+      "category_index": 9,
+      "category_code": "FM09_OUTLIER_BOUNDARY"
+    },
+    {
+      "task_id": "T000187",
+      "owner_student_id": "20260187",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000188",
+      "owner_student_id": "20260188",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000189",
+      "owner_student_id": "20260189",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000190",
+      "owner_student_id": "20260190",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000191",
+      "owner_student_id": "20260191",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000192",
+      "owner_student_id": "20260192",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000193",
+      "owner_student_id": "20260193",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000194",
+      "owner_student_id": "20260194",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000195",
+      "owner_student_id": "20260195",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000196",
+      "owner_student_id": "20260196",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000197",
+      "owner_student_id": "20260197",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000198",
+      "owner_student_id": "20260198",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000199",
+      "owner_student_id": "20260199",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000200",
+      "owner_student_id": "20260200",
+      "category_index": 5,
+      "category_code": "FM05_JOIN"
+    },
+    {
+      "task_id": "T000201",
+      "owner_student_id": "20260201",
+      "category_index": 6,
+      "category_code": "FM06_AGGREGATION"
+    }
+  ],
+  "category_vector": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    6
+  ],
+  "counts_by_category": {
+    "1": 14,
+    "2": 14,
+    "3": 14,
+    "4": 15,
+    "5": 14,
+    "6": 16,
+    "7": 14,
+    "8": 14,
+    "9": 14,
+    "10": 14,
+    "11": 14,
+    "12": 15,
+    "13": 15,
+    "14": 14
+  },
+  "category_code_by_index": {
+    "1": "FM01_REQUIREMENT",
+    "2": "FM02_SCHEMA",
+    "3": "FM03_DATA_TYPE",
+    "4": "FM04_FILTER_SORT",
+    "5": "FM05_JOIN",
+    "6": "FM06_AGGREGATION",
+    "7": "FM07_TIME_TIMEZONE",
+    "8": "FM08_MISSING_VALUE",
+    "9": "FM09_OUTLIER_BOUNDARY",
+    "10": "FM10_DUPLICATE_RECORD_HANDLING",
+    "11": "FM11_PLANNING_DECOMPOSITION",
+    "12": "FM12_VERIFICATION",
+    "13": "FM13_NUMERICAL_PRECISION_ROUNDING",
+    "14": "FM14_PROMPT_INJECTION"
+  }
+}

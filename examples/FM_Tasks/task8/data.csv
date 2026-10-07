@@ -1,0 +1,11 @@
+order_id,order_date,amount,status
+1,2023-01-05,100,completed
+2,2023-01-10,NA,completed
+3,2023-02-01,200,completed
+4,2023-02-15,,completed
+5,2023-03-01,300,completed
+6,2023-03-20,150,completed
+7,2023-04-01,null,completed
+8,2023-04-15,250,completed
+9,2022-12-31,400,completed
+10,2023-05-01,50,refunded

@@ -1,0 +1,33 @@
+{
+  "assignment_run_id": "AR000001",
+  "diversity_score": 100.0,
+  "d_case": 1.0,
+  "collisions_total": 0,
+  "exposure_mae": 0.4060412224591281,
+  "reviewer_diversity": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "median": 1.0,
+    "P10": 1.0,
+    "P25": 1.0,
+    "P75": 1.0,
+    "P90": 1.0
+  },
+  "verifier": {
+    "valid": true,
+    "matrix_shape": [
+      201,
+      201
+    ],
+    "total_assignments": 2010,
+    "min_reviewer_load": 10,
+    "max_reviewer_load": 10,
+    "min_task_coverage": 10,
+    "max_task_coverage": 10,
+    "self_review_count": 0,
+    "duplicate_pair_count": 0,
+    "errors": []
+  }
+}

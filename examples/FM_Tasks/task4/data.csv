@@ -1,0 +1,11 @@
+order_id,order_date,product,amount,status
+P001,2023-01-05,A,250,finished
+P002,2023-01-08,B,300,finished
+P003,2023-01-12,C,200,finished
+P004,2023-01-15,D,400,finished
+P005,2023-01-20,E,250,finished
+P006,2023-01-22,F,150,pending
+P007,2023-01-25,G,320,finished
+P008,2023-02-01,H,280,finished
+P009,2023-02-03,I,250,finished
+P010,2023-02-06,J,180,finished

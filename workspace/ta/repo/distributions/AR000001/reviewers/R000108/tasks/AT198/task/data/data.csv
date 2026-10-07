@@ -1,0 +1,5 @@
+record_type,entity_id,customer_id,name,amount
+customer,C001,,Alice,
+customer,C002,,Bob,
+order,O001,C001,,100.0
+order,O002,C002,,200.0

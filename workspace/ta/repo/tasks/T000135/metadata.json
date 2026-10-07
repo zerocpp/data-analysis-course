@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000135",
+  "source_task_id": "T_00000000000000000000000000000087",
+  "submission_phase": "phase1",
+  "failure_mode": "FM03_DATA_TYPE",
+  "ingested_at": "2026-10-07T06:55:41+00:00",
+  "files": {
+    "task/data/data.csv": "cfb17ec6c695dccbc9313e81142c1d4e2ea2cbe13e4067779369e9a0fbab3100",
+    "task/task.json": "11771adbe7129ef3df5e3fc88b46ca08f9262b93bf308246b745d425b4e303ff"
+  }
+}
