@@ -1,0 +1,6 @@
+{
+  "task_id": "T_0000000000000000000000000000000d",
+  "hypothesized_failure_mode": "FM06_AGGREGATION",
+  "task_statement": "data.csv 包含 product、price、quantity 三个字段。\n请计算每行 revenue = price * quantity，并求所有记录的 revenue 总和。\n输出数值。",
+  "canonical_task_id": "T000013"
+}

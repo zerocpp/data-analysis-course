@@ -1,0 +1,6 @@
+{
+  "task_id": "T_0000000000000000000000000000000f",
+  "hypothesized_failure_mode": "FM06_AGGREGATION",
+  "task_statement": "data.csv 包含 department、score 两个字段。\n请按 department 计算平均 score，并返回平均分最高的 department。\n请只输出部门名称。",
+  "canonical_task_id": "T000015"
+}

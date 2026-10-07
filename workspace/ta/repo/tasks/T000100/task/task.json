@@ -1,0 +1,6 @@
+{
+  "task_id": "T_00000000000000000000000000000064",
+  "hypothesized_failure_mode": "FM08_MISSING_VALUE",
+  "task_statement": "data.csv 包含 id、score 两个字段。\n请统计 score 列中的缺失值数量。\n输出一个整数。",
+  "canonical_task_id": "T000100"
+}

@@ -1,0 +1,6 @@
+{
+  "task_id": "T_0000000000000000000000000000000e",
+  "hypothesized_failure_mode": "FM06_AGGREGATION",
+  "task_statement": "data.csv 包含 transaction_id、status、unit_price、quantity、discount_pct、shipping_fee。\n只保留 status == \"completed\" 的记录。对每条保留记录计算：net_revenue = unit_price * quantity * (100 - discount_pct) / 100 + shipping_fee。\n最后将所有 net_revenue 相加，并四舍五入到最接近的整数。\n输出一个整数。",
+  "canonical_task_id": "T000014"
+}

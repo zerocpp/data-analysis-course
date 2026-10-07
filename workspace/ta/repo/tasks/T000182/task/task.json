@@ -1,0 +1,6 @@
+{
+  "task_id": "T_000000000000000000000000000000b6",
+  "hypothesized_failure_mode": "FM09_OUTLIER_BOUNDARY",
+  "task_statement": "data.csv 只有 value 字段。\n请使用 pandas 默认 quantile 计算 Q1=25% 分位数和 Q3=75% 分位数，IQR = Q3 - Q1。\n将严格小于 Q1 - 1.5*IQR 或严格大于 Q3 + 1.5*IQR 的记录视为异常值。\n统计异常值数量。\n输出一个整数。",
+  "canonical_task_id": "T000182"
+}

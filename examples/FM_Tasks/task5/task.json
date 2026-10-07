@@ -1,0 +1,7 @@
+{
+    "task_id": "T_05",
+    "description": "两表关联，查找VIP用户2023已完成订单最大金额对应的order_id（Join关联错误）",
+    "task_statement": "存在两张csv表：orders.csv（订单表）、users.csv（用户表）。orders包含order_id,user_id,order_date,amount,status；users包含user_id,user_type,city。关联条件：orders.user_id = users.user_id。筛选条件：order_date属于2023年，user_type='VIP'，status='completed'。在满足条件的订单中，找到amount最大的那一行，输出order_id，JSON格式：{\"answer\":\"order_id\"}",
+    "student_id": "20250005",
+    "hypothesized_failure_mode": "FM05_JOIN"
+}

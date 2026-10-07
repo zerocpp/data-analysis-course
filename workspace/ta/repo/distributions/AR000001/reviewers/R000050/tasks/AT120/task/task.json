@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM02_SCHEMA",
+  "task_statement": "data.csv 包含 student_id、name、score 三个字段。\n请判断哪一个字段能够唯一标识每一行记录。\n请只输出字段名。",
+  "anonymous_task_id": "AT120"
+}

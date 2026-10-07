@@ -1,0 +1,7 @@
+{
+    "task_id": "T_08",
+    "description": "计算2023年completed订单平均金额（缺失值处理错误）",
+    "task_statement": "data.csv含order_id,order_date,amount,status四列。amount字段存在缺失值（缺失记号可能是NA、空、或null三种之一）。要求：只统计order_date在2023年、status='completed'的订单，**将amount缺失的订单排除后**计算 amount 的平均值，输出JSON：{\"answer\":数值}",
+    "student_id": "20250008",
+    "hypothesized_failure_mode": "FM08_MISSING_VALUE"
+}

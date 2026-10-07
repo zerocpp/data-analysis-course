@@ -1,0 +1,20 @@
+{
+  "schema_version": "distribution.v1",
+  "assignment_id": "AR000001_R000037",
+  "distribution_id": "R000037",
+  "phase": "phase2",
+  "source_phase": "phase1",
+  "distribution_phase": "phase2",
+  "anonymous_tasks": [
+    "AT003",
+    "AT018",
+    "AT032",
+    "AT060",
+    "AT080",
+    "AT100",
+    "AT111",
+    "AT143",
+    "AT159",
+    "AT179"
+  ]
+}

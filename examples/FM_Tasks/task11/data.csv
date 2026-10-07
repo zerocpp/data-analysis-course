@@ -1,0 +1,11 @@
+user_id,order_id,order_date,amount,status
+U1,101,2023-01-05,100,completed
+U1,102,2023-02-10,300,completed
+U1,103,2023-03-15,200,completed
+U2,104,2023-01-20,400,completed
+U2,105,2023-05-01,150,completed
+U3,106,2023-02-25,500,completed
+U3,107,2023-06-30,100,completed
+U4,108,2023-03-10,250,completed
+U4,109,2022-12-31,900,completed
+U5,110,2023-04-01,600,refunded

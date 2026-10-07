@@ -1,0 +1,6 @@
+{
+  "task_id": "T_00000000000000000000000000000029",
+  "hypothesized_failure_mode": "FM04_FILTER_SORT",
+  "task_statement": "data.csv 是销售明细，包含 rep_id、month、sales、returns。\n请先按 rep_id 汇总三个月的 total_sales = sales 之和，以及 total_returns = returns 之和。\n然后按以下规则选出排名第一的销售代表：total_sales 更高者优先；若 total_sales 相同，则 total_returns 更低者优先；若仍相同，则 rep_id 字母升序优先。\n请只输出排名第一的 rep_id。",
+  "canonical_task_id": "T000041"
+}

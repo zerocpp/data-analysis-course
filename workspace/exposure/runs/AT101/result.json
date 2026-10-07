@@ -1,0 +1,16 @@
+{
+  "schema_version": "codesetarena.exposure.v1",
+  "anonymous_task_id": "AT101",
+  "task_description": "",
+  "status": "done",
+  "stop_reason": "completed",
+  "error": "",
+  "answer_preview": "7",
+  "elapsed_seconds": 2.823,
+  "total_tokens": 1672,
+  "agent_calls": 2,
+  "peak_memory_mb": 77.8,
+  "graded": false,
+  "note": "Exposure 诊断运行：无 gold，不做正确性评分",
+  "recorded_at": "2026-10-07T07:36:26+00:00"
+}

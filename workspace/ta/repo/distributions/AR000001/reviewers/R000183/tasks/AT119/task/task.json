@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM02_SCHEMA",
+  "task_statement": "data.csv 是一张订单明细表，包含 order_id、customer_id、product_code、warehouse、batch_no、amount 六个字段。\n请在 order_id、customer_id、product_code、warehouse、batch_no 中判断哪一个字段同时满足：无缺失且能够唯一标识每一行记录。\n请只输出字段名。",
+  "anonymous_task_id": "AT119"
+}

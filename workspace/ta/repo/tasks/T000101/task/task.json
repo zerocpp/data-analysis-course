@@ -1,0 +1,6 @@
+{
+  "task_id": "T_00000000000000000000000000000065",
+  "hypothesized_failure_mode": "FM08_MISSING_VALUE",
+  "task_statement": "data.csv 包含 id、score_raw 两个字段。score_raw 中混有正常数字、前后空格、空字符串以及 N/A、absent、error 等无效文本。\n请先去除字符串前后空格，再把能够解析为数值的内容转换为数值；其余内容一律视为缺失。\n统计清洗后 score_raw 的缺失值数量。\n输出一个整数。",
+  "canonical_task_id": "T000101"
+}

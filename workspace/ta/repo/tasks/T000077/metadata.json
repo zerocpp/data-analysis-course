@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000077",
+  "source_task_id": "T_0000000000000000000000000000004d",
+  "submission_phase": "phase1",
+  "failure_mode": "FM11_PLANNING_DECOMPOSITION",
+  "ingested_at": "2026-10-07T06:54:38+00:00",
+  "files": {
+    "task/data/data.csv": "4afcc5a529191c3926ce39bac2fb0be39b210211655b08d7a4aa277169251f95",
+    "task/task.json": "3b23c4ffa20efaf4d83460a5830315a7b3450e2c4f7f0472e2045baf94cbd637"
+  }
+}

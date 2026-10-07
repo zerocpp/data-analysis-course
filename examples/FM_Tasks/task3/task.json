@@ -1,0 +1,7 @@
+{
+    "task_id": "T_03",
+    "description": "筛选金额大于100的订单，找到字典序最小order_id对应的商品名称（数据类型处理错误）",
+    "task_statement": "data.csv包含order_id,order_date,product_name,amount,status共5列。order_id为字符串类型。要求：筛选amount>100并且status='finished'的订单，在筛选结果里找到字典序最小的order_id，输出对应的product_name，JSON格式：{\"answer\":\"product_name\"}",
+    "student_id": "20250003",
+    "hypothesized_failure_mode": "FM03_DATA_TYPE"
+}

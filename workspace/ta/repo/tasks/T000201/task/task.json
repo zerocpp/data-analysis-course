@@ -1,0 +1,7 @@
+{
+  "task_id": "T_SMOKE_DETERMINISTIC_0201",
+  "description": "统计 amount 总和（deterministic smoke）",
+  "task_statement": "data.csv 含 region、amount 两列，计算 amount 总和并以 JSON 输出：{\"answer\": 数值}",
+  "hypothesized_failure_mode": "FM06_AGGREGATION",
+  "canonical_task_id": "T000201"
+}

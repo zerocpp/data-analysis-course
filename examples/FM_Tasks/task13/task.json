@@ -1,0 +1,7 @@
+{
+    "task_id": "T_13",
+    "description": "计算2023年completed订单平均金额并保留两位小数（数值精度/舍入错误）",
+    "task_statement": "data.csv含order_id,order_date,amount,status四列，amount为小数金额。要求：统计order_date在2023年、status='completed'的订单，计算amount的平均值，**结果四舍五入保留2位小数**输出，JSON：{\"answer\":数值}",
+    "student_id": "20250013",
+    "hypothesized_failure_mode": "FM13_NUMERICAL_PRECISION_ROUNDING"
+}

@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM07_TIME_TIMEZONE",
+  "task_statement": "data.csv 包含 customer_id、date、status、sales。\n请将 date 解析为日期，只保留 status == \"completed\" 的记录。\n对每个 customer_id，找出其第一笔 completed 交易日期，并保留从该日期开始 7 天内（含首日，即 date >= first_date 且 date < first_date + 7 天）的 completed 交易。\n计算所有客户这些 7 天窗口内的 sales 总和。\n输出一个整数。",
+  "anonymous_task_id": "AT158"
+}

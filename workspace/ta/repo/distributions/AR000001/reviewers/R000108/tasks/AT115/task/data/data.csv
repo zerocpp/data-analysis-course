@@ -1,0 +1,11 @@
+region,amount,category
+east,30,A
+east,100,A
+east,50,B
+east,80,C
+west,30,A
+west,120,A
+east,29,A
+east,99.5,B
+east,30,C
+west,50,B

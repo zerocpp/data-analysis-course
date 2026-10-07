@@ -1,0 +1,6 @@
+{
+  "capability": "统计分析",
+  "hypothesized_failure_mode": "FM13_NUMERICAL_PRECISION_ROUNDING",
+  "task_statement": "data.csv 包含 record_id、amount 两个字段。\n请对每一行 amount：使用十进制 ROUND_HALF_UP 规则先保留两位小数，\n然后再将逐行舍入后的结果求和。\n禁止先求和再舍入；禁止使用 Python 默认的银行家舍入（bankers rounding）。\n输出求和数值（保留两位小数）。",
+  "anonymous_task_id": "AT030"
+}

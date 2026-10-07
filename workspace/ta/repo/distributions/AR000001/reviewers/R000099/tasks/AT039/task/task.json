@@ -1,0 +1,5 @@
+{
+  "hypothesized_failure_mode": "FM04_FILTER_SORT",
+  "task_statement": "data.csv 包含 student_id、score 两个字段。\n请按 score 从高到低排序，并返回最高分学生的 student_id。\n请只输出 student_id。",
+  "anonymous_task_id": "AT039"
+}

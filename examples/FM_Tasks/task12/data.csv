@@ -1,0 +1,11 @@
+order_id,order_date,amount,status
+2001,2023-01-05,100,completed
+2002,2023-01-10,200,completed
+2003,2023-02-01,300,completed
+2004,2023-02-15,400,completed
+2005,2023-03-01,500,completed
+2001,2023-01-05,100,completed
+2006,2023-03-20,600,completed
+2007,2023-04-01,700,completed
+2008,2022-12-31,800,completed
+2009,2023-05-01,900,refunded

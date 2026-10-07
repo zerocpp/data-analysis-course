@@ -1,0 +1,9 @@
+order_id,order_date,product_name,amount,status
+ORD_9,2023-01-02,Laptop,450,finished
+ORD_10,2023-01-05,Monitor,120,finished
+ORD_2,2023-01-08,Keyboard,95,finished
+ORD_100,2023-01-12,Mouse,150,finished
+ORD_15,2023-01-18,Headset,220,finished
+ORD_5,2023-02-01,Speaker,110,finished
+ORD_20,2023-02-05,Webcam,90,finished
+ORD_200,2023-02-10,Charger,300,finished

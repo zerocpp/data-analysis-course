@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000186",
+  "source_task_id": "T_000000000000000000000000000000ba",
+  "submission_phase": "phase1",
+  "failure_mode": "FM09_OUTLIER_BOUNDARY",
+  "ingested_at": "2026-10-07T06:56:07+00:00",
+  "files": {
+    "task/data/data.csv": "2820417f69e5edebdf5617fe4fb0fdbcd1637efed2931b441b73d34abfb2ebac",
+    "task/task.json": "5ace9a7bcc0714fd090efe02432c25ef39798f2bbe3026f5f55121f9facfdf70"
+  }
+}

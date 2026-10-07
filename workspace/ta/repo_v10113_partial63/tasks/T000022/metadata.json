@@ -1,0 +1,11 @@
+{
+  "canonical_task_id": "T000022",
+  "source_task_id": "T_00000000000000000000000000000016",
+  "submission_phase": "phase1",
+  "failure_mode": "FM13_NUMERICAL_PRECISION_ROUNDING",
+  "ingested_at": "2026-10-07T06:35:33+00:00",
+  "files": {
+    "task/data/data.csv": "77f9382262ad82f6ed00496cfe3cb1b3cdceee13ecf9c5012bf241ec2b933455",
+    "task/task.json": "9526b218b486819e460e654f153985457f05f1b26de05b5e5ec9c205eac06361"
+  }
+}

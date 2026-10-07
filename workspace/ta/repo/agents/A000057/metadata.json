@@ -1,0 +1,9 @@
+{
+  "canonical_agent_id": "A000057",
+  "source_agent_id": "T_00000000000000000000000000000039",
+  "entrypoint": "agent.py",
+  "ingested_at": "2026-10-07T06:54:25+00:00",
+  "files": {
+    "agent.py": "1df32f92220678901d1d0129f21bcdc06c809e50b6f8b5d8fab3014e651ce14a"
+  }
+}
