@@ -1,6 +1,0 @@
-{
-  "task_id": "T_000000000000000000000000000000b9",
-  "hypothesized_failure_mode": "FM09_OUTLIER_BOUNDARY",
-  "task_statement": "data.csv 包含 value 字段。\n请先计算 value 的平均值，再统计严格大于该平均值的记录数。\n输出一个整数。",
-  "canonical_task_id": "T000185"
-}

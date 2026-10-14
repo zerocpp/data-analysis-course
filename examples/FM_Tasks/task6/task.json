@@ -1,7 +1,0 @@
-{
-    "task_id": "T_06",
-    "description": "统计各地区2023已完成订单的去重下单用户数，输出最多地区（聚合口径错误）",
-    "task_statement": "data.csv含order_id,user_id,region,order_date,amount,status六列。要求：只统计order_date在2023年、status='completed'的订单，按region分组，统计每个地区的**去重下单用户数(count distinct user_id)**，输出用户数最多的region，JSON：{\"answer\":\"region\"}",
-    "student_id": "20250006",
-    "hypothesized_failure_mode": "FM06_AGGREGATION"
-}

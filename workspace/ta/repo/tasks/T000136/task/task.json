@@ -1,8 +1,0 @@
-{
-  "task_id": "T_00000000000000000000000000000088",
-  "capability": "数据清洗与类型转换",
-  "hypothesized_failure_mode": "FM03_DATA_TYPE",
-  "expected_failure_mode": "FM03",
-  "task_statement": "data.csv 包含 id、amount 两个字段。\nid 为带前导零的编号（必须按字符串处理，禁止转成数值）；\namount 为带空格与千分位的数字字符串（例如 \"1,234.5\"、\" 98 \"）。\n请清洗（去空格、去千分位逗号）后计算 amount 之和。\n输出数值。",
-  "canonical_task_id": "T000136"
-}

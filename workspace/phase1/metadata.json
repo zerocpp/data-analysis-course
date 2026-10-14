@@ -1,0 +1,7 @@
+{
+  "workspace": "phase1",
+  "student_id": "REPLACE_WITH_YOUR_STUDENT_ID",
+  "task_id": "TASK_REPLACE_WITH_YOUR_STUDENT_ID",
+  "agent_id": "AGENT_REPLACE_WITH_YOUR_STUDENT_ID",
+  "hypothesized_failure_mode": "FM_AGGREGATION"
+}

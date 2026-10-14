@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM06_AGGREGATION",
-  "task_statement": "data.csv 包含 employee_id、department、status、score、weight。\n只保留 status == \"active\" 且 score 非缺失的记录。\n对每个 department 计算加权平均分：sum(score * weight) / sum(weight)。\n返回加权平均分最高的 department；如果并列，按 department 字母升序取第一个。\n请只输出部门名称。",
-  "anonymous_task_id": "AT004"
-}

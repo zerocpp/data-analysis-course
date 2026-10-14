@@ -1,7 +1,0 @@
-{
-    "task_id": "T_10",
-    "description": "统计2023年completed唯一订单数（重复记录处理错误）",
-    "task_statement": "data.csv含order_id,order_date,amount,status四列，存在重复记录（同一order_id可能出现多次，包括完全重复行、或同一订单同时有completed与refunded两行的矛盾情况）。要求：统计order_date在2023年、status='completed'的**唯一订单数（order_id去重后计数）**，输出JSON：{\"answer\":数值}",
-    "student_id": "20250010",
-    "hypothesized_failure_mode": "FM10_DUPLICATE_RECORD_HANDLING"
-}

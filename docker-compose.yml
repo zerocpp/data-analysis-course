@@ -1,10 +1,10 @@
 # CodeSetArena Student Runtime — offline Docker distribution.
 #
 # Students run this file. It NEVER builds: the image is loaded from
-# `bigdata-student-10.1.13.image.tar` via `docker load`, so a machine
+# `bigdata-student-10.1.19.image.tar` via `docker load`, so a machine
 # with no Internet can start the container with zero downloads.
 #
-#   docker load -i bigdata-student-10.1.13.image.tar
+#   docker load -i bigdata-student-10.1.19.image.tar
 #   docker compose up -d
 #   docker compose ps
 #
@@ -16,7 +16,7 @@ name: bigdata-student
 
 services:
   codesetarena:
-    image: ${CSA_IMAGE:-bigdata-student:10.1.13}
+    image: ${CSA_IMAGE:-bigdata-student:10.1.19}
     container_name: bigdata-student
 
     # `docker compose up -d` must leave the container Up: the interface is the

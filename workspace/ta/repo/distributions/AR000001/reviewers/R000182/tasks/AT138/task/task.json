@@ -1,6 +1,0 @@
-{
-  "capability": "数据清洗与类型转换",
-  "hypothesized_failure_mode": "FM03_DATA_TYPE",
-  "task_statement": "data.csv 包含 date、flag、value 三个字段。\ndate 为 \"YYYY-MM-DD\" 字符串；flag 为 \"YES\"/\"NO\" 字符串，表示该行是否计入。\n请把 date 正确解析为日期、flag 映射为布尔（仅 YES 计入），\n统计 flag=YES 且 date 的月份为 2 的记录 value 之和（不限制年份）。\n输出数值。",
-  "anonymous_task_id": "AT138"
-}

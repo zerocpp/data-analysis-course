@@ -1,7 +1,0 @@
-{
-    "task_id": "T_12",
-    "description": "统计2023年completed订单金额总和（验证不足）",
-    "task_statement": "data.csv含order_id,order_date,amount,status四列。数据源自真实订单，订单号order_id应当唯一（可据此校验数据质量）。要求：统计order_date在2023年、status='completed'的订单，对amount求和。**提交前应先核对数据（如检查order_id是否重复）**，输出JSON：{\"answer\":数值}",
-    "student_id": "20250012",
-    "hypothesized_failure_mode": "FM12_VERIFICATION"
-}

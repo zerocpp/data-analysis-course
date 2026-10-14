@@ -1,8 +1,0 @@
-{
-  "task_id": "T_00000000000000000000000000000030",
-  "capability": "结果验证与复现",
-  "hypothesized_failure_mode": "FM12_VERIFICATION",
-  "expected_failure_mode": "FM12",
-  "task_statement": "data.csv 包含 order_id、sales、refunds、net 四个字段。\nnet 声称等于 sales - refunds。请逐行核对 net 是否等于 sales - refunds （浮点比较用绝对误差 < 1e-6 视为相等），\n输出不一致的行数（整数）。",
-  "canonical_task_id": "T000048"
-}
