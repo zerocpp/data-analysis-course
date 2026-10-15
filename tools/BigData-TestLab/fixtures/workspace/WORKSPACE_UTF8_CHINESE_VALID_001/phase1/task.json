@@ -1,0 +1,5 @@
+{
+  "description": "华东/华西聚合。",
+  "task_statement": "按 region 求 amount 总和并只输出整数。",
+  "answer": 30
+}

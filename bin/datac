@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# BigData v10.1.13 student wrapper: runs the course CLI inside the local container.
+# BigData v10.1.19 student wrapper: runs the course CLI inside the local container.
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 docker compose up -d >/dev/null

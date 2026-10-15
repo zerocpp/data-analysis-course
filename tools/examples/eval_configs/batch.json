@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    "pool/tasks/T000001",
+    "pool/tasks/T000002"
+  ],
+  "agents": [
+    "pool/agents/A000001",
+    "pool/agents/A000002"
+  ],
+  "model_configs": [
+    "examples/eval_configs/deepseek.json",
+    "examples/eval_configs/qwen.json"
+  ],
+  "batch_id": "batch_001"
+}

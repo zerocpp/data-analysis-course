@@ -1,6 +1,0 @@
-{
-  "capability": "数据清洗与类型转换",
-  "hypothesized_failure_mode": "FM10_DUPLICATE_RECORD_HANDLING",
-  "task_statement": "data.csv 包含 order_id、item、amount 三个字段。\n存在两种不同情况：\n1）O001,A,100 与 O001,A,100 是完全相同的重复记录（exact duplicate）；\n2）O001,A,100 与 O001,B,50 虽然 order_id 相同，但属于合法的订单明细。\n请仅删除整行完全相同的重复记录，然后计算剩余 amount 的总和。输出数值。",
-  "anonymous_task_id": "AT065"
-}

@@ -1,0 +1,10 @@
+{
+  "expected": "FAIL",
+  "expected_code": "TAR_PATH_TRAVERSAL",
+  "actual_fail": true,
+  "actual_code": "validator 异常",
+  "stage_ok": false,
+  "status": "FAIL",
+  "returncode": 2,
+  "stderr_tail": "[csa-entrypoint] empty workspace detected — seeding from public template\n[csa-entrypoint] dropping privileges to csa and executing: datac submission validate --input /lab/bigdata_p1_12561005.tar.gz\n[submission] validator 异常: OutsideDestinationError: '../escape.txt' would be extracted to '/tmp/csa_built_pkg_j8aql6da/escape.txt', which is outside the destination\n"
+}

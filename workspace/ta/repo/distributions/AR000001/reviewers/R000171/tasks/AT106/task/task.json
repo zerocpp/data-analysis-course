@@ -1,6 +1,0 @@
-{
-  "capability": "多步骤数据分析",
-  "hypothesized_failure_mode": "FM01_REQUIREMENT",
-  "task_statement": "data.csv 包含 order_id、item、amount 三个字段。\n需求：先按 amount 升序排序（金额相同再按 order_id 字典序升序），取 amount 最小的 3 条\"不重复 order_id\"记录，输出这 3 条的 amount 之和。\n注意：\"不重复\"指 order_id 只算一次（重复 order_id 保留排序中最先出现的一条）。\n输出数值。",
-  "anonymous_task_id": "AT106"
-}

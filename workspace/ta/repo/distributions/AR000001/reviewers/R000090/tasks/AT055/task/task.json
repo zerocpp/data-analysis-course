@@ -1,6 +1,0 @@
-{
-  "capability": "结果验证与复现",
-  "hypothesized_failure_mode": "FM12_VERIFICATION",
-  "task_statement": "data.csv 包含 item、amount、reported_total 三个字段。\n要求核对 reported_total 列：若某行 reported_total == amount 则行内一致。\n不要信任任何声称的总额，请独立重算 amount 之和，并统计行内 reported_total != amount 的行数。\n输出格式（逗号分隔）：\"<不一致行数>,<重算总额>\"。",
-  "anonymous_task_id": "AT055"
-}

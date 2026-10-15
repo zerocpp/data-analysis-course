@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM08_MISSING_VALUE",
-  "task_statement": "data.csv 包含 target、feature_a、feature_b、feature_c 四个数值字段，其中部分特征存在缺失。\n请分别计算 target 与三个 feature 的 Pearson 相关系数；每次相关计算只使用该 feature 与 target 都非缺失的成对记录。\n比较三个相关系数的绝对值，返回绝对相关性最大的特征列名。若并列，按列名字母升序取第一个。\n请只输出 feature_a、feature_b 或 feature_c。",
-  "anonymous_task_id": "AT099"
-}

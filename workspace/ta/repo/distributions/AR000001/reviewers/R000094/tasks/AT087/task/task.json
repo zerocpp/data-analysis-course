@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM11_PLANNING_DECOMPOSITION",
-  "task_statement": "data.csv 是电商交易表，包含 order_id、date、region、channel、status、returned、price、quantity、discount_pct。\n请依次完成：\n1. 将 date 解析为日期，只保留 2026 年第二季度（2026-04-01 含，2026-07-01 不含）；\n2. 只保留 status == \"completed\" 且 returned == \"No\" 的记录；\n3. 计算 net_revenue = price * quantity * (100 - discount_pct) / 100；\n4. 按 region 汇总 net_revenue，找出总额最高的 region；若并列，按 region 字母升序；\n5. 仅在该 region 内，再按 channel 汇总 net_revenue，找出总额最高的 channel；若并列，按 channel 字母升序。\n最终输出格式必须为 region|channel，例如 East|Online。",
-  "anonymous_task_id": "AT087"
-}

@@ -1,6 +1,0 @@
-{
-  "task_id": "T_0000000000000000000000000000000b",
-  "hypothesized_failure_mode": "FM06_AGGREGATION",
-  "task_statement": "data.csv 包含 sample_id、y_true、pred_A、pred_B。y_true 和预测值均为二分类 0/1。\n请分别计算 pred_A 和 pred_B 对正类 1 的 F1：F1 = 2*Precision*Recall/(Precision+Recall)。\n返回 F1 更高的预测列名；若两者 F1 完全相同，返回 pred_A。\n请只输出 pred_A 或 pred_B。",
-  "canonical_task_id": "T000011"
-}

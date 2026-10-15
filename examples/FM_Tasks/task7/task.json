@@ -1,7 +1,0 @@
-{
-    "task_id": "T_07",
-    "description": "按东八区本地时间筛选2023-01-01已完成订单求和（时间/时区错误）",
-    "task_statement": "data.csv含order_id,order_time,amount,status三列。order_time为带UTC偏移的ISO时间。要求：将时间统一转换为UTC+8（Asia/Shanghai）本地时间，筛选属于2023-01-01当天、status='completed'的订单，对amount求和，输出JSON：{\"answer\":数值}",
-    "student_id": "20250007",
-    "hypothesized_failure_mode": "FM07_TIME_TIMEZONE"
-}

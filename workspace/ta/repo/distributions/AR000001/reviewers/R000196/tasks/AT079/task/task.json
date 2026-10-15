@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM11_PLANNING_DECOMPOSITION",
-  "task_statement": "data.csv 包含 region、price、quantity 三个字段。\n请先保留 region == \"East\" 的记录，然后计算 revenue = price * quantity，最后求这些记录的 revenue 总和。\n输出数值。",
-  "anonymous_task_id": "AT079"
-}

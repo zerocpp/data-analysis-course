@@ -1,6 +1,0 @@
-{
-  "task_id": "T_0000000000000000000000000000009b",
-  "hypothesized_failure_mode": "FM07_TIME_TIMEZONE",
-  "task_statement": "data.csv 包含 date、sales 两个字段。\n请将 date 解析为日期，并计算 2026 年 3 月（2026-03-01 含，2026-04-01 不含）的 sales 总和。\n输出数值。",
-  "canonical_task_id": "T000155"
-}

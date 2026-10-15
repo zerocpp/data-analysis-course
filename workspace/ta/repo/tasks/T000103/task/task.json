@@ -1,8 +1,0 @@
-{
-  "task_id": "T_00000000000000000000000000000067",
-  "capability": "多步骤数据分析",
-  "hypothesized_failure_mode": "FM01_REQUIREMENT",
-  "expected_failure_mode": "FM01",
-  "task_statement": "data.csv 包含 region、amount、category 三个字段。\n需求：仅统计 region 为 \"east\"、amount 严格大于等于 30 且严格小于 100、且 category 为 \"A\" 或 \"B\" 的记录数量。\n注意：区间取 [30, 100)；category 只算 A 与 B，不含 \"C\"。\n输出一个整数。",
-  "canonical_task_id": "T000103"
-}

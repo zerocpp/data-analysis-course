@@ -1,6 +1,0 @@
-{
-  "task_id": "T_000000000000000000000000000000bb",
-  "hypothesized_failure_mode": "FM05_JOIN",
-  "task_statement": "data.csv 使用 record_type 在同一文件中存放 customer、order、refund 三类记录。\ncustomer 行：entity_id 是 customer_id，status 表示客户状态。\norder 行：order_id 是订单号，customer_id 指向客户，status 表示订单状态，amount 是订单金额。\nrefund 行：order_id 指向被退款订单，只有 status == \"approved\" 的退款有效，amount 是需要扣除的退款金额。\n请只统计能够匹配到 status == \"active\" 客户的 completed 订单，并从这些订单金额中扣除对应的 approved 退款，计算最终净金额总和。无法匹配客户或订单的记录忽略。\n输出一个整数。",
-  "canonical_task_id": "T000187"
-}

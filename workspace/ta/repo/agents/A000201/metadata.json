@@ -1,9 +1,0 @@
-{
-  "canonical_agent_id": "A000201",
-  "source_agent_id": "T_SMOKE_DETERMINISTIC_0201",
-  "entrypoint": "agent.py",
-  "ingested_at": "2026-10-07T06:56:14+00:00",
-  "files": {
-    "agent.py": "56244695ab86e89418ba3f2a009436578a3172afeea19fddcb708e94ccd8de49"
-  }
-}

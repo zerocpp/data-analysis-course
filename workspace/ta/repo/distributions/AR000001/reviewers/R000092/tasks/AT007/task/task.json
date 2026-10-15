@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM06_AGGREGATION",
-  "task_statement": "data.csv 包含 x、y 两个数值字段。\n请计算 x 与 y 的 Pearson 相关系数，并保留两位小数。\n输出格式示例：0.85",
-  "anonymous_task_id": "AT007"
-}

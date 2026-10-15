@@ -1,5 +1,0 @@
-{
-  "hypothesized_failure_mode": "FM06_AGGREGATION",
-  "task_statement": "data.csv 包含 y_true、y_pred 两个字段。\n请计算分类预测的 Accuracy，即预测正确的记录数除以总记录数。\n结果保留两位小数。",
-  "anonymous_task_id": "AT008"
-}

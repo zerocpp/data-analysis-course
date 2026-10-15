@@ -1,0 +1,5 @@
+{
+  "description": "一句话描述你的任务，例如：统计 amount 总和并输出整数。",
+  "task_statement": "data.csv 包含 region、amount 两列。请计算 amount 的总和并只输出整数。",
+  "answer": 30
+}
