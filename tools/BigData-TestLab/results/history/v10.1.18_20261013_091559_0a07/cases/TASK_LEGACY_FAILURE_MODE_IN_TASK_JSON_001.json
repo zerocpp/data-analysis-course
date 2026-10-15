@@ -1,0 +1,10 @@
+{
+  "expected": "FAIL",
+  "expected_code": "TASK_JSON_FORBIDDEN_HYPOTHESIZED_FAILURE_MODE",
+  "actual_fail": true,
+  "actual_code": "BAD_TASK_JSON",
+  "stage_ok": true,
+  "status": "PASS",
+  "returncode": 1,
+  "stderr_tail": "[csa-entrypoint] empty workspace detected — seeding from public template\n[csa-entrypoint] dropping privileges to csa and executing: datac submission validate --input /lab/bigdata_p1_12561005.tar.gz\n[submission] BAD_TASK_JSON: TASK_JSON_FORBIDDEN_HYPOTHESIZED_FAILURE_MODE: task.json must not contain 'hypothesized_failure_mode'; move it to metadata.json\n"
+}

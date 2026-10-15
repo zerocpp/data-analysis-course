@@ -1,0 +1,200 @@
+{
+  "TASK_ANSWER_MISMATCH_001": {
+    "file": "fixtures/task_packages/TASK_ANSWER_MISMATCH_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "8be4e4fe8cd760c96448606e3c33040d13157317a6318301a9f02d5aa4cb934d",
+    "expected": "FAIL",
+    "code": "ANSWER_MISMATCH"
+  },
+  "TASK_ARCHIVE_ABSOLUTE_PATH_001": {
+    "file": "fixtures/task_packages/TASK_ARCHIVE_ABSOLUTE_PATH_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "cb8c19498e723c40d5c04236271dc0bb1aa60c10bb62296ebc11f7c3ed564892",
+    "expected": "FAIL",
+    "code": "TAR_PATH_TRAVERSAL"
+  },
+  "TASK_ARCHIVE_PATH_TRAVERSAL_001": {
+    "file": "fixtures/task_packages/TASK_ARCHIVE_PATH_TRAVERSAL_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "871bc326c664799647af85dd39351b85e420cd98ac0c02c0f451c76367f367d5",
+    "expected": "FAIL",
+    "code": "TAR_PATH_TRAVERSAL"
+  },
+  "TASK_ARCHIVE_SYMLINK_ESCAPE_001": {
+    "file": "fixtures/task_packages/TASK_ARCHIVE_SYMLINK_ESCAPE_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "f4629106c47bddbe8899b5bce1178ad1ce186b5d1840ad30b8b62fc38142ad80",
+    "expected": "FAIL",
+    "code": "TAR_UNSAFE_LINK"
+  },
+  "TASK_COLUMNS_AT_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_COLUMNS_AT_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "80d2a5783ef5d2a6b83bd17244cadc46a6f4e6df379e9bdd8163f699d106728d",
+    "expected": "PASS",
+    "code": ""
+  },
+  "TASK_COLUMNS_OVER_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_COLUMNS_OVER_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "6a9696d600a7ca504eed8d4e775d7e6de8e34828c092ccec5cb52f0821120bd4",
+    "expected": "FAIL",
+    "code": "CSV_TOO_MANY_COLUMNS"
+  },
+  "TASK_CSV_GBK_ENCODING_001": {
+    "file": "fixtures/task_packages/TASK_CSV_GBK_ENCODING_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "b50435e10af1058c03d886e0c88cd2938aea5f7598eb976ceee05f30a51fa563",
+    "expected": "FAIL",
+    "code": "INVALID_CSV_ENCODING"
+  },
+  "TASK_CSV_INVALID_UTF8_001": {
+    "file": "fixtures/task_packages/TASK_CSV_INVALID_UTF8_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "6f6839e39bd6cd6a903a6cdb752337af172e61dae5719c6c2f678a6e922393fa",
+    "expected": "FAIL",
+    "code": "INVALID_CSV_ENCODING"
+  },
+  "TASK_DATA_BAD_CSV_001": {
+    "file": "fixtures/task_packages/TASK_DATA_BAD_CSV_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "7def5b89d97c08481245a4a1f52fcae47eb189875f8ff51ec9349a3ed1a30216",
+    "expected": "FAIL",
+    "code": "INVALID_CSV"
+  },
+  "TASK_DATA_MISSING_REQUIRED_COLUMN_001": {
+    "file": "fixtures/task_packages/TASK_DATA_MISSING_REQUIRED_COLUMN_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "27f7bef5844d3fe6d1c8906ae7ec4dcbe5c43415edbbf16a1dadf98b3c4c59f2",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_DATA_WRONG_FILENAME_001": {
+    "file": "fixtures/task_packages/TASK_DATA_WRONG_FILENAME_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "9aca98c387a9586cdcc43fa48a1cbf4f1d9994916a092544b08cb01f0bd4c3f7",
+    "expected": "FAIL",
+    "code": "BAD_TASKS_PACKAGE"
+  },
+  "TASK_EXTRA_FILE_001": {
+    "file": "fixtures/task_packages/TASK_EXTRA_FILE_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "d61a64519c4cc3e7dbd9c116393f474707c05695242a8201cb16559ecbe2df22",
+    "expected": "FAIL",
+    "code": "BAD_TASKS_PACKAGE"
+  },
+  "TASK_FILE_SIZE_AT_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_FILE_SIZE_AT_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "703cb496e7c855f52863fec8601834fcdc4aea21f17a9adbe7db7f4d3ef2c31d",
+    "expected": "PASS",
+    "code": ""
+  },
+  "TASK_FILE_SIZE_OVER_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_FILE_SIZE_OVER_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "d460b02cefc0dc57e7123b61cf1a015b1fce5fadf72984ce738381c9184a2c01",
+    "expected": "FAIL",
+    "code": "CSV_FILE_TOO_LARGE"
+  },
+  "TASK_INVALID_JSON_001": {
+    "file": "fixtures/task_packages/TASK_INVALID_JSON_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "013ed684b07af99488202e1eca58ec24deb9c7c99d32f5b745426b7ac2af8a61",
+    "expected": "FAIL",
+    "code": "INVALID_TASK_JSON"
+  },
+  "TASK_LEGACY_FAILURE_MODE_IN_TASK_JSON_001": {
+    "file": "fixtures/task_packages/TASK_LEGACY_FAILURE_MODE_IN_TASK_JSON_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "68da0c7b4696f8c8a6d9cf4a748cfc9a006d700c5aaed96dba59f1a0f0acd8ea",
+    "expected": "FAIL",
+    "code": "TASK_JSON_FORBIDDEN_HYPOTHESIZED_FAILURE_MODE"
+  },
+  "TASK_MISSING_ANSWER_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_ANSWER_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "c25d6b36b5f537ffad22374f0d431bb0f862475b1d4f307b4492185c6c70bd50",
+    "expected": "FAIL",
+    "code": "BAD_TASK_JSON"
+  },
+  "TASK_MISSING_DATA_CSV_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_DATA_CSV_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "1dec4ae365d7e3b50569b428f5aabe2733f992d2781ca6eeabf669f21df33106",
+    "expected": "FAIL",
+    "code": "BAD_TASKS_PACKAGE"
+  },
+  "TASK_MISSING_DESCRIPTION_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_DESCRIPTION_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "cd9483e1d9b6ed8bb229831e3072172cff595870794039136bf675a1b4afe548",
+    "expected": "FAIL",
+    "code": "BAD_TASK_JSON"
+  },
+  "TASK_MISSING_REFERENCE_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_REFERENCE_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "a102b25567d3cc6ecea4cbf0fdea5c0822b43785e241ecf039f306992f344196",
+    "expected": "FAIL",
+    "code": "BAD_TASKS_PACKAGE"
+  },
+  "TASK_MISSING_TASK_JSON_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_TASK_JSON_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "b1ab80d2c6221983dc6f21cfb97bba0151bbf0a3c338617b71c1c146fab26582",
+    "expected": "FAIL",
+    "code": "BAD_TASKS_PACKAGE"
+  },
+  "TASK_MISSING_TASK_STATEMENT_001": {
+    "file": "fixtures/task_packages/TASK_MISSING_TASK_STATEMENT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "ebe0fe3a4599dac01816cb41b55220dc537e97c429da38e43babfb134b84c75f",
+    "expected": "FAIL",
+    "code": "BAD_TASK_JSON"
+  },
+  "TASK_REFERENCE_FORBIDDEN_FILE_IO_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_FORBIDDEN_FILE_IO_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "2444465d742339f49e649f499bff8f7ee45a1e5f17e8aeb3a9c63c654763a517",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_REFERENCE_FORBIDDEN_IMPORT_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_FORBIDDEN_IMPORT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "26b4e0f0e9722eb71cc214306139e301a63073a84ac562808dd86663ea58ca86",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_REFERENCE_HARDCODED_ANSWER_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_HARDCODED_ANSWER_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "0cc2eab8b89ecd6749f0ba9524a67a40675d9e4359ee318fc1b5983d8f6779b5",
+    "expected": "FAIL",
+    "code": "REFERENCE_HARDCODED_ANSWER"
+  },
+  "TASK_REFERENCE_MISSING_FUNCTION_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_MISSING_FUNCTION_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "e6b3707c631056c58c0d594fdb9dc75543b53c4c603b2daf0440a15b0749e74f",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_REFERENCE_RUNTIME_ERROR_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_RUNTIME_ERROR_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "44e719d16bd68fc350611c9ebe42a819712edb00b4f0a9b3228271bb8955e298",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_REFERENCE_SYNTAX_ERROR_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_SYNTAX_ERROR_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "cabac4534615f40b078537d64b409fc22bc7ee1221a91b09f522d9d6297dcdb6",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_REFERENCE_WRONG_SIGNATURE_001": {
+    "file": "fixtures/task_packages/TASK_REFERENCE_WRONG_SIGNATURE_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "26191e12f257627b8e3fdac548e8b332b751fa390ce77a2a71dce1399db1c017",
+    "expected": "FAIL",
+    "code": "REFERENCE_ERROR"
+  },
+  "TASK_ROWS_AT_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_ROWS_AT_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "1a7f53940ca42342f5af6e238d4456ef5383fd5ef4f23455ee5fc53516203d90",
+    "expected": "PASS",
+    "code": ""
+  },
+  "TASK_ROWS_OVER_LIMIT_001": {
+    "file": "fixtures/task_packages/TASK_ROWS_OVER_LIMIT_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "0cf7f16472e79271c250f4d3b6f34ef9f6b9fbff6c22139d6a0192bbfa4c605c",
+    "expected": "FAIL",
+    "code": "CSV_TOO_MANY_ROWS"
+  },
+  "TASK_UTF8_CHINESE_VALID_001": {
+    "file": "fixtures/task_packages/TASK_UTF8_CHINESE_VALID_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "e93715e1ab7d94e6cc8fab04d3ba3170278cec16ee03a2ac18598ce596304d63",
+    "expected": "PASS",
+    "code": ""
+  },
+  "TASK_VALID_001": {
+    "file": "fixtures/task_packages/TASK_VALID_001/bigdata_p1_12561005.tar.gz",
+    "sha256": "cb6ca11bd34bb4cff92f23d2dc6493f98f712906bfec2a95edcea83226eff9ec",
+    "expected": "PASS",
+    "code": ""
+  }
+}

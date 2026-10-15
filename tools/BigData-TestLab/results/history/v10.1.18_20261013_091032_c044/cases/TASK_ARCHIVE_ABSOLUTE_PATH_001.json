@@ -1,0 +1,10 @@
+{
+  "expected": "FAIL",
+  "expected_code": "TAR_PATH_TRAVERSAL",
+  "actual_fail": true,
+  "actual_code": "Tasks 包内必须恰好 task.json/data.csv/reference.py，实际 ['Tasks_12561005', 'tmp']",
+  "stage_ok": false,
+  "status": "FAIL",
+  "returncode": 1,
+  "stderr_tail": "[csa-entrypoint] empty workspace detected — seeding from public template\n[csa-entrypoint] dropping privileges to csa and executing: datac submission validate --input /lab/bigdata_p1_12561005.tar.gz\n[submission] BAD_TASKS_PACKAGE: Tasks 包内必须恰好 task.json/data.csv/reference.py，实际 ['Tasks_12561005', 'tmp']\n"
+}

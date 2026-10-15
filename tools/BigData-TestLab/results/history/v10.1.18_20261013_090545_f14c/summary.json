@@ -1,0 +1,308 @@
+{
+  "label": "v10.1.18",
+  "image": "bigdata-student:10.1.18",
+  "run_id": "20261013_090545_f14c",
+  "finished_at": "2026-10-13T01:09:39+00:00",
+  "total": 33,
+  "passed": 0,
+  "failed": 33,
+  "results": {
+    "TASK_ANSWER_MISMATCH_001": {
+      "expected": "FAIL",
+      "expected_code": "ANSWER_MISMATCH",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_ARCHIVE_ABSOLUTE_PATH_001": {
+      "expected": "FAIL",
+      "expected_code": "TAR_PATH_TRAVERSAL",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_ARCHIVE_PATH_TRAVERSAL_001": {
+      "expected": "FAIL",
+      "expected_code": "TAR_PATH_TRAVERSAL",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_ARCHIVE_SYMLINK_ESCAPE_001": {
+      "expected": "FAIL",
+      "expected_code": "TAR_UNSAFE_LINK",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_COLUMNS_AT_LIMIT_001": {
+      "expected": "PASS",
+      "expected_code": "",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": true,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_COLUMNS_OVER_LIMIT_001": {
+      "expected": "FAIL",
+      "expected_code": "CSV_TOO_MANY_COLUMNS",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_CSV_GBK_ENCODING_001": {
+      "expected": "FAIL",
+      "expected_code": "INVALID_CSV_ENCODING",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_CSV_INVALID_UTF8_001": {
+      "expected": "FAIL",
+      "expected_code": "INVALID_CSV_ENCODING",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_DATA_BAD_CSV_001": {
+      "expected": "FAIL",
+      "expected_code": "INVALID_CSV",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_DATA_MISSING_REQUIRED_COLUMN_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_DATA_WRONG_FILENAME_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASKS_PACKAGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_EXTRA_FILE_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASKS_PACKAGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_FILE_SIZE_AT_LIMIT_001": {
+      "expected": "PASS",
+      "expected_code": "",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": true,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_FILE_SIZE_OVER_LIMIT_001": {
+      "expected": "FAIL",
+      "expected_code": "CSV_FILE_TOO_LARGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_INVALID_JSON_001": {
+      "expected": "FAIL",
+      "expected_code": "INVALID_TASK_JSON",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_LEGACY_FAILURE_MODE_IN_TASK_JSON_001": {
+      "expected": "FAIL",
+      "expected_code": "TASK_JSON_FORBIDDEN_HYPOTHESIZED_FAILURE_MODE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_ANSWER_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASK_JSON",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_DATA_CSV_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASKS_PACKAGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_DESCRIPTION_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASK_JSON",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_REFERENCE_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASKS_PACKAGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_TASK_JSON_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASKS_PACKAGE",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_MISSING_TASK_STATEMENT_001": {
+      "expected": "FAIL",
+      "expected_code": "BAD_TASK_JSON",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_FORBIDDEN_FILE_IO_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_FORBIDDEN_IMPORT_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_HARDCODED_ANSWER_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_HARDCODED_ANSWER",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_MISSING_FUNCTION_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_RUNTIME_ERROR_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_SYNTAX_ERROR_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_REFERENCE_WRONG_SIGNATURE_001": {
+      "expected": "FAIL",
+      "expected_code": "REFERENCE_ERROR",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_ROWS_AT_LIMIT_001": {
+      "expected": "PASS",
+      "expected_code": "",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": true,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_ROWS_OVER_LIMIT_001": {
+      "expected": "FAIL",
+      "expected_code": "CSV_TOO_MANY_ROWS",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": false,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_UTF8_CHINESE_VALID_001": {
+      "expected": "PASS",
+      "expected_code": "",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": true,
+      "status": "FAIL",
+      "returncode": 1
+    },
+    "TASK_VALID_001": {
+      "expected": "PASS",
+      "expected_code": "",
+      "actual_fail": true,
+      "actual_code": "bigdata_p1_12561005.tar.gz",
+      "stage_ok": true,
+      "status": "FAIL",
+      "returncode": 1
+    }
+  }
+}

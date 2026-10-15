@@ -1,0 +1,10 @@
+{
+  "expected": "FAIL",
+  "expected_code": "BAD_TASKS_PACKAGE",
+  "actual_fail": true,
+  "actual_code": "archive 无法读取",
+  "stage_ok": false,
+  "status": "FAIL",
+  "returncode": 1,
+  "stderr_tail": "[csa-entrypoint] empty workspace detected — seeding from public template\n[csa-entrypoint] dropping privileges to csa and executing: datac submission validate --input /lab/TASK_MISSING_TASK_JSON_001.tar.gz\n[submission] TAR_EXTRACT_ERROR: archive 无法读取: PermissionError: [Errno 13] Permission denied: '/lab/TASK_MISSING_TASK_JSON_001.tar.gz'\n"
+}

@@ -1,0 +1,10 @@
+{
+  "expected": "FAIL",
+  "expected_code": "BAD_TASK_JSON",
+  "actual_fail": true,
+  "actual_code": "bigdata_p1_12561005.tar.gz",
+  "stage_ok": false,
+  "status": "FAIL",
+  "returncode": 1,
+  "stderr_tail": "[csa-entrypoint] empty workspace detected — seeding from public template\n[csa-entrypoint] dropping privileges to csa and executing: datac submission validate --input /lab/bigdata_p1_12561005.tar.gz\n[submission] ARCHIVE_UNREADABLE: bigdata_p1_12561005.tar.gz: PermissionError: [Errno 13] Permission denied: '/lab/bigdata_p1_12561005.tar.gz'\n"
+}
